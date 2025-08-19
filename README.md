@@ -18,7 +18,7 @@ There are no duplicate values in the dataset.
 
 - **Data Preprocessing**
 
-The columns Name and Host name had missing values, they are filled with 'N/A' since their count is very low and it won't make much difference in our further analysis. The review_per_month column was filled with 0 where the values were missing, which typically means that the property has not received any reviews, so assuming the same for our case and replacing null values with 0 makes sense.
+The columns **Name** and **Host name** had missing values, they are filled with 'N/A' since their count is very low and it won't make much difference in our further analysis. The **review_per_month** and **last_review** this more than 30% of missing data then all drop the null value with dropna().
 
 - **Actionable Insights**
     - Manhattan being the most expensive neighbourhood with the highest average price we can infer that it could be driven by higher demand
