@@ -29,3 +29,11 @@ The columns **Name** and **Host name** had missing values, they are filled with 
 - **Key Results**
 
 Uncovered pricing distribution, property listing availability and popularity and understood the demand and preferences of customers on the basis of geographical location, room type, pricing.
+
+Manhattan is the most focused place in New York for hosts to do their business
+
+Customers pay highest amount in Brooklyn,Queens and Manhattan that is 10,000 and lowest amount is 10$.
+
+For the three types of room type (i.e. Entire home, Shared room, & Private room) average price of entire home is around $157, for shared room is around 60, and for private room is around 72.
+
+'Entire home/apt' room type has the highest number of listing of 52% and ‘Shared Room’ is the least listed room type at only 2.2% in total.
