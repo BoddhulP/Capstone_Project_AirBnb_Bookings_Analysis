@@ -1,10 +1,31 @@
 # Capstone_Project_AirBnb_Bookings_Analysis
 
-The exploratory data analysis capstone project aims to provide students with hands-on experience in analyzing and interpreting real-world datasets. Students will work on a dataset of their choice, exploring its characteristics, patterns, and relationships to derive meaningful insights. General guidelines to be followed are as follows:
+- **Industry Context:**
 
-1. Well-structured, formatted, and commented code is required.
-2. Exception Handling, Production Grade Code & Deployment Ready Code will be a plus. Those students will be awarded some additional credits.
-3. The additional credits will have advantages over other students during Star Student selection.
-4. [ Note: - Deployment Ready Code is defined as, the whole .ipynb notebook should be executable in one go without a single error logged. ]
-5. Each and every logic should have proper comments.
-6. You may add as many number of charts you want. Make Sure for each and every chart the following format should be answered.
+Airbnb is a brand known globally in the property rental/hospitality industry, offering travelers flexibility, affordable, and localized alternatives compared to hotels. The platform caters to a growing preference for personalized and immersive travel experiences, especially for people who prefer independent stay, flexibility and budget constraints. In major cities like New York, where hotel prices are too high and demand is constant, Airbnb property listings have surged in both number and variety.
+
+However, the property rental industry also faces increased scrutiny from city regulators, with concerns about housing affordability, zoning violations, and community impact.
+
+- **Project Objective**
+
+The primary business objective of this exploratory data analysis is to help Airbnb hosts, property managers, and investors optimize their listings to improve occupancy rates, revenue, and overall performance.
+
+- **About Data**
+
+The  dataset contains airbnb listing data for the year 2019 and has around 49,000 observations in it with 16 columns and it is a mix of categorical and numeric values.
+
+There are no duplicate values in the dataset.
+
+- **Data Preprocessing**
+
+The columns Name and Host name had missing values, they are filled with 'N/A' since their count is very low and it won't make much difference in our further analysis. The review_per_month column was filled with 0 where the values were missing, which typically means that the property has not received any reviews, so assuming the same for our case and replacing null values with 0 makes sense.
+
+- **Actionable Insights**
+    - Manhattan being the most expensive neighbourhood with the highest average price we can infer that it could be driven by higher demand
+    - Staten Island and the Bronx show lower overall review counts across all room types, which may indicate less activity or fewer listings in these neighborhoods.
+    - The majority of listings are for "Entire home/apartment" constituting 52.0% of the total listing.
+    - Shared room has the lowest average price, making it the most affordable across all the neighborhood and preferred listing for people on a low budget.
+  
+- **Key Results**
+
+Uncovered pricing distribution, property listing availability and popularity and understood the demand and preferences of customers on the basis of geographical location, room type, pricing.
